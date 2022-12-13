@@ -59,7 +59,7 @@ class Doctor:
     def searchDoctorByName(self):
         Doctor_Found = None
         List_of_Doctors = self.readDoctorsFile()
-        search = input("Enter the doctor Id: ")
+        search = input("Enter the doctor Name: ")
         for x in List_of_Doctors:
             if x[1] == search:
                 Doctor_Found = x
